@@ -44,7 +44,10 @@ If not installed, download and install Python 3.10+ from:
 ### 2️⃣ Clone or Download the Project
 ```
 git clone https://github.com/SyedShaheerHussain/Secure-File-Encryption-Decryption-Tool-GUI-.git
-cd secure-file-encryption-tool
+
+```
+```
+cd Secure File Encryption & Decryption Tool
 
 ```
 Or manually download and extract the project folder.
