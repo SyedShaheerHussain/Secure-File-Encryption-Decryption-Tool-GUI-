@@ -37,190 +37,206 @@ python --version
 
 ```
 If not installed, download and install Python 3.10+ from:
-(https://www.python.org/downloads/)
+[!Python](https://www.python.org/downloads/)
 
 *⚠️ Important: During installation, check "Add Python to PATH"*
 
 ### 2️⃣ Clone or Download the Project
-git clone https://github.com/your-username/secure-file-encryption-tool.git
+```
+git clone https://github.com/SyedShaheerHussain/Secure-File-Encryption-Decryption-Tool-GUI-.git
 cd secure-file-encryption-tool
 
-
+```
 Or manually download and extract the project folder.
 
 ### 3️⃣ (Optional) Create a Virtual Environment
+```
 python -m venv venv
 
-
-Activate it:
+```
+*Activate it:*
 
 Windows
-
+```
 venv\Scripts\activate
 
+```
 
 macOS / Linux
 
+```
 source venv/bin/activate
 
+```
+
 ### 4️⃣ Install Required Packages
+```
 pip install cryptography customtkinter
 
+```
+*Verify installation:*
 
-Verify installation:
-
+```
 python -c "import cryptography, customtkinter"
 
-▶️ How to Run the Application
+```
+### ▶️ How to Run the Application
+```
 python mainapp.py
 
+```
 
 After running, the GUI window will open.
 
-🔐 How Encryption Works
+## 🔐 How Encryption Works
 
-User selects a file using the Browse File button.
+1. User selects a file using the Browse File button.
 
-User enters a password.
+2. User enters a password.
 
-Password is validated using a live password strength meter.
+3. Password is validated using a live password strength meter.
 
-A secure encryption key is derived using PBKDF2 + SHA-256.
+4. A secure encryption key is derived using PBKDF2 + SHA-256.
 
-AES-256-GCM encrypts the file with a random salt and nonce.
+5. AES-256-GCM encrypts the file with a random salt and nonce.
 
-Encrypted file is saved with .enc extension.
+6. Encrypted file is saved with .enc extension.
 
-Success message displays encrypted file location.
+7. Success message displays encrypted file location.
 
-🔓 How Decryption Works
+## 🔓 How Decryption Works
 
-User selects an encrypted .enc file.
+1. User selects an encrypted .enc file.
 
-User enters the same password used for encryption.
+2. User enters the same password used for encryption.
 
-The encryption key is regenerated using PBKDF2.
+3. The encryption key is regenerated using PBKDF2.
 
-AES-256-GCM decrypts the file.
+4. AES-256-GCM decrypts the file.
 
-Original file is restored if password is correct.
+5. Original file is restored if password is correct.
 
-Error message is shown for incorrect passwords or corrupted files.
+6. Error message is shown for incorrect passwords or corrupted files.
 
-🔑 Password Strength Meter
+## 🔑 Password Strength Meter
 
-The application includes a real-time password strength meter based on:
+*The application includes a real-time password strength meter based on:*
 
-Password length
+* Password length
 
-Uppercase characters
+* Uppercase characters
 
-Lowercase characters
+* Lowercase characters
 
-Digits
+* Digits
 
-Special symbols
+* Special symbols
 
-Strength Levels:
+* Strength Levels:
 
-Weak (Red)
+* Weak (Red)
 
-Medium (Yellow)
+* Medium (Yellow)
 
-Strong (Orange)
+* Strong (Orange)
 
-Very Strong (Green)
+* Very Strong (Green)
 
-Weak and medium passwords are blocked during encryption.
+* Weak and medium passwords are blocked during encryption.
 
-🎨 GUI Overview
+## 🎨 GUI Overview
 
-Sidebar navigation (Encrypt, Decrypt, Settings, About)
+- Sidebar navigation (Encrypt, Decrypt, Settings, About)
 
-Modern buttons, spacing, and typography
+- Modern buttons, spacing, and typography
 
-Responsive layout
+- Responsive layout
 
-Dark / Light mode toggle
+- Dark / Light mode toggle
 
-Password visibility toggle
+- Password visibility toggle
 
-Progress bars for encryption feedback
+- Progress bars for encryption feedback
 
-🧪 Security Design Highlights
+## 🧪 Security Design Highlights
 
-AES-256-GCM ensures confidentiality and integrity
+* AES-256-GCM ensures confidentiality and integrity
 
-Random salt prevents rainbow-table attacks
+* Random salt prevents rainbow-table attacks
 
-Nonce ensures unique encryption per file
+* Nonce ensures unique encryption per file
 
-Keys are never stored on disk
+* Keys are never stored on disk
 
-Passwords are never saved in plaintext
+* Passwords are never saved in plaintext
 
-Encryption logic separated from GUI logic
+* Encryption logic separated from GUI logic
 
-Industry-standard cryptography practices followed
+* Industry-standard cryptography practices followed
 
-🖥️ Create Standalone Executable (Optional)
+## 🖥️ Create Standalone Executable (Optional)
 
-Install PyInstaller:
+*Install PyInstaller:*
 
+```
 pip install pyinstaller
 
+```
 
-Build executable:
-
+*Build executable:*
+```
 pyinstaller --onefile --windowed mainapp.py
 
+```
 
 The executable will be available in the dist/ folder.
 
-📚 Learning Outcomes
+## 📚 Learning Outcomes
 
-Understanding of symmetric encryption (AES)
+* Understanding of symmetric encryption (AES)
 
-Secure password-based key derivation
+* Secure password-based key derivation
 
-GUI development with CustomTkinter
+* GUI development with CustomTkinter
 
-Secure file handling in Python
+* Secure file handling in Python
 
-Multi-threaded desktop applications
+* Multi-threaded desktop applications
 
-Real-world cryptography implementation
+* Real-world cryptography implementation
 
-Secure software design principles
+* Secure software design principles
 
-🚀 Future Enhancements
+## 🚀 Future Enhancements
 
-Folder encryption support
+1. Folder encryption support
 
-Secure file deletion (shredding)
+2. Secure file deletion (shredding)
 
-Master password login system
+3. Master password login system
 
-Key rotation support
+4. Key rotation support
 
-Hybrid encryption (AES + RSA)
+5. Hybrid encryption (AES + RSA)
 
-Cloud storage integration
+6. Cloud storage integration
 
-Two-factor authentication (2FA)
+7. Two-factor authentication (2FA)
 
-Auto-lock and retry limits
+8. Auto-lock and retry limits
 
-👨‍💻 Author
+## 👨‍💻 Author
 
-Developed by Imran Akhlaq
+Developed by ( © Syed Shaheer Hussain)
 A professional Python-based cryptography and secure software project.
 
-📄 License
+## 📄 License
 
-This project is intended for educational and academic purposes.
-Use responsibly and follow local data protection laws.
+> [!IMPORTANT]
+> This project is intended for educational and academic purposes.
+> Use responsibly and follow local data protection laws.
 
-⭐ Final Note
+## ⭐ Final Note
 
-This project demonstrates practical implementation of modern encryption standards with a professional GUI. It is suitable for Final Year Projects (FYP), portfolio showcases, and learning secure software development.
+> [!Note]
+> This project demonstrates practical implementation of modern encryption standards with a professional GUI. It is suitable for Final Year Projects (FYP), portfolio showcases, and learning secure software development.
