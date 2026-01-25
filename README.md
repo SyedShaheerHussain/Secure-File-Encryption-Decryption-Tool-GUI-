@@ -230,7 +230,7 @@ The executable will be available in the dist/ folder.
 
 ## 👨‍💻 Author
 
-Developed by ( © Syed Shaheer Hussain)
+Developed by (**© Syed Shaheer Hussain**)
 A professional Python-based cryptography and secure software project.
 
 ## 📄 License
