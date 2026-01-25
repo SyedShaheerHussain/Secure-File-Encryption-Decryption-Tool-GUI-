@@ -37,7 +37,7 @@ python --version
 
 ```
 If not installed, download and install Python 3.10+ from:
-[!Python](https://www.python.org/downloads/)
+[Python](https://www.python.org/downloads/)
 
 *⚠️ Important: During installation, check "Add Python to PATH"*
 
