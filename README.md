@@ -2,7 +2,6 @@
 
 Secure File Encryption & Decryption Tool is a Python-based desktop application that allows users to securely encrypt and decrypt files using modern cryptographic standards. The application uses **AES-256-GCM** for encryption along with **PBKDF2 (SHA-256)** for secure password-based key derivation, ensuring strong protection against unauthorized access. A modern, responsive GUI is provided using **CustomTkinter**.
 
----
 
 ## 📌 Features
 
@@ -17,8 +16,6 @@ Secure File Encryption & Decryption Tool is a Python-based desktop application t
 - Proper error handling and user-friendly alerts
 - Cross-platform support (Windows, macOS, Linux)
 
----
-
 ## 🛠️ Technologies Used
 
 - Python 3.10+
@@ -30,32 +27,28 @@ Secure File Encryption & Decryption Tool is a Python-based desktop application t
 - Tkinter File Dialogs
 - Multi-threading
 
----
-
-
----
-
 ## ⚙️ Installation Guide
 
 ### 1️⃣ Install Python
 
 Check if Python is installed:
-```bash
+```
 python --version
 
+```
 If not installed, download and install Python 3.10+ from:
-https://www.python.org/downloads/
+(https://www.python.org/downloads/)
 
-⚠️ Important: During installation, check "Add Python to PATH"
+*⚠️ Important: During installation, check "Add Python to PATH"*
 
-2️⃣ Clone or Download the Project
+### 2️⃣ Clone or Download the Project
 git clone https://github.com/your-username/secure-file-encryption-tool.git
 cd secure-file-encryption-tool
 
 
 Or manually download and extract the project folder.
 
-3️⃣ (Optional) Create a Virtual Environment
+### 3️⃣ (Optional) Create a Virtual Environment
 python -m venv venv
 
 
@@ -70,7 +63,7 @@ macOS / Linux
 
 source venv/bin/activate
 
-4️⃣ Install Required Packages
+### 4️⃣ Install Required Packages
 pip install cryptography customtkinter
 
 
