@@ -2,6 +2,21 @@
 
 Secure File Encryption & Decryption Tool is a Python-based desktop application that allows users to securely encrypt and decrypt files using modern cryptographic standards. The application uses **AES-256-GCM** for encryption along with **PBKDF2 (SHA-256)** for secure password-based key derivation, ensuring strong protection against unauthorized access. A modern, responsive GUI is provided using **CustomTkinter**.
 
+## 📸 Screenshots
+
+![Screenshot 1](https://github.com/SyedShaheerHussain/Secure-File-Encryption-Decryption-Tool-GUI-/blob/f7bba2df3e181a64cf1774b5ae07d7ee307ef429/screenshots/Screenshot%20(23).png)
+
+![Screenshot 2](https://github.com/SyedShaheerHussain/Secure-File-Encryption-Decryption-Tool-GUI-/blob/f7bba2df3e181a64cf1774b5ae07d7ee307ef429/screenshots/Screenshot%20(24).png)
+
+![Screenshot 3](https://github.com/SyedShaheerHussain/Secure-File-Encryption-Decryption-Tool-GUI-/blob/f7bba2df3e181a64cf1774b5ae07d7ee307ef429/screenshots/Screenshot%20(25).png)
+
+![Screenshot 4](https://github.com/SyedShaheerHussain/Secure-File-Encryption-Decryption-Tool-GUI-/blob/f7bba2df3e181a64cf1774b5ae07d7ee307ef429/screenshots/Screenshot%20(26).png)
+
+![Screenshot 5](https://github.com/SyedShaheerHussain/Secure-File-Encryption-Decryption-Tool-GUI-/blob/f7bba2df3e181a64cf1774b5ae07d7ee307ef429/screenshots/Screenshot%20(29).png)
+
+![Screenshot 6](https://github.com/SyedShaheerHussain/Secure-File-Encryption-Decryption-Tool-GUI-/blob/f7bba2df3e181a64cf1774b5ae07d7ee307ef429/screenshots/Screenshot%20(27).png)
+
+![Screenshot 7](https://github.com/SyedShaheerHussain/Secure-File-Encryption-Decryption-Tool-GUI-/blob/f7bba2df3e181a64cf1774b5ae07d7ee307ef429/screenshots/Screenshot%20(28).png)
 
 ## 📌 Features
 
