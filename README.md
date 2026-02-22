@@ -273,8 +273,6 @@ Your support helps drive continued innovation and open-source contributions.
 
 [![GitHub followers](https://img.shields.io/github/followers/SyedShaheerHussain?label=Follow&style=social)](https://github.com/SyedShaheerHussain)
 
-[![GitHub stars](https://img.shields.io/github/stars/OWNER/REPO?style=social)](https://github.com/SyedShaheerHussain/Secure-File-Encryption-Decryption-Tool-GUI-)
-
 ![Followers](https://img.shields.io/github/followers/SyedShaheerHussain?label=Followers&color=blue)
 
 ![Stars](https://img.shields.io/github/stars/SyedShaheerHussain/Secure-File-Encryption-Decryption-Tool-GUI-?label=Stars&color=yellow)
