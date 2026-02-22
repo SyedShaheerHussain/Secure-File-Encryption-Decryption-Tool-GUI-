@@ -258,3 +258,23 @@ A professional Python-based cryptography and secure software project.
 
 > [!Note]
 > This project demonstrates practical implementation of modern encryption standards with a professional GUI. It is suitable for Final Year Projects (FYP), portfolio showcases, and learning secure software development.
+
+## ⭐ Support & Engagement
+
+If you find this repository useful or insightful, please consider:
+
+- ⭐ Starring the repository
+- 🔁 Sharing it within your network
+- 👤 Following my GitHub profile for future projects and updates
+
+Your support helps drive continued innovation and open-source contributions.
+
+— Syed Shaheer Hussain
+
+[![GitHub followers](https://img.shields.io/github/followers/SyedShaheerHussain?label=Follow&style=social)](https://github.com/SyedShaheerHussain)
+
+[![GitHub stars](https://img.shields.io/github/stars/OWNER/REPO?style=social)](https://github.com/SyedShaheerHussain/Secure-File-Encryption-Decryption-Tool-GUI-)
+
+![Followers](https://img.shields.io/github/followers/SyedShaheerHussain?label=Followers&color=blue)
+
+![Stars](https://img.shields.io/github/stars/SyedShaheerHussain/Secure-File-Encryption-Decryption-Tool-GUI-?label=Stars&color=yellow)
